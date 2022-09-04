@@ -7,8 +7,8 @@ environments:
 
 apps:
   - name: flycode-angular-example-app
-    path: ""
-    image-resources: true
+    path: src/app
     text-resources:
       - path: "*.html"
         format: angular-hardcoded
+
